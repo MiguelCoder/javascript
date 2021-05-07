@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analisador de números</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Analisador de números</h1>
+    </header>
+    <section>
+        <div>
+            <p>
+                Escolha um número entre 1 a 100
+                <input type="number" id="fnumber">
+                <button onclick="adicionar()">Adicionar</button>
+                <!-- parentheses can mess you up big time-->
+            </p>
+            
+            <select id="flista" size="8"></select>
+            <br>
+            <button onclick="submit()">Finalizar</button>
+        </div>
+
+        <div id="result"></div>
+    </section>
+    <footer>
+        <p>&copy; Alexdev</p>
+    </footer>
+    <script src="analizer.js"></script>
+</body>
+</html>
